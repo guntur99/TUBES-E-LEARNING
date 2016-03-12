@@ -8,12 +8,12 @@
  *
  * @author Guntur
  */
-public class Mahasiswa {
+public class Mahasiswa{
     private String namaMhs; //deklrasi variabel
 	private long nim; //deklarasi variabel
 	private String jurusan; //deklarasi variabel
 	private String jenisKelamin; //deklarasi variabel
-	public Mahasiswa(){} //default constructor
+	//public Mahasiswa(){} //default constructor
 	public Mahasiswa(String namaMhs,long nim, String jurusan, String jenisKelamin) //constructor
 	{
 		this.namaMhs=namaMhs;
