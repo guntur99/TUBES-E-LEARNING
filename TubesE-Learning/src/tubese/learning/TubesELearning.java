@@ -64,13 +64,6 @@ public class Mahasiswa
 	{
 		return jenisKelamin;
 	}
-	public void display()
-	{
-		System.out.println(namaMhs);
-		System.out.println(nim);
-		System.out.println(jurusan);
-		System.out.println(jenisKelamin);
-	}
 	
 }
 
@@ -134,7 +127,42 @@ public class Tugas {
 		return nilaiTugas;
 	}
 }
-
+public class Quiz {
+	private String namaQuiz;
+	private String soalQuiz;
+	private int nilaiQuiz;
+	
+	public Quiz(String namaQuiz, String soalQuiz, int nilaiQuiz) {
+		this.namaQuiz = namaQuiz;
+		this.soalQuiz = soalQuiz;
+		this.nilaiQuiz = nilaiQuiz;
+	}
+	
+	public void setNamaQuiz(String namaQuiz) {
+		this.namaQuiz = namaQuiz;
+	}
+	
+	public void setSoalQuiz(String soalQuiz) {
+		this.soalQuiz = soalQuiz;
+	}
+	
+	public void getNilaiQuiz(int nilaiQuiz) {
+		this.nilaiQuiz = nilaiQuiz;
+	}
+	
+	public String getNamaQuiz() {
+		return namaQuiz;
+	}
+	
+	public String getSoalQuiz() {
+		return soalQuiz;
+	}
+	
+	public int nilaiQuiz() {
+		return nilaiQuiz;
+	}
+	
+}
 }
 
 
