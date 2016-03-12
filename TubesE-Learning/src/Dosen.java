@@ -13,7 +13,7 @@ public class Dosen extends Orang {
 	private Kelas [] daftarKelas;
 	
 	public Dosen (String nama, int Id){
-		//super.(nama,Id);
+		super.(nama,Id);
 	}
 
 	public void createKelas (String namaKelas){

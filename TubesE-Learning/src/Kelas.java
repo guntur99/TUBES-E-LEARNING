@@ -9,5 +9,9 @@
  * @author Guntur
  */
 public class Kelas {
+    private String namaKelas;
     
+    public Kelas(String namaKelas){
+        this.namaKelas = namaKelas;
+    }
 }
