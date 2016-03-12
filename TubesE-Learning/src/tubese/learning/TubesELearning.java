@@ -127,9 +127,6 @@ public class Tugas {
 		return nilaiTugas;
 	}
 }
-
-}
-
 public class Quiz {
 	private String namaQuiz;
 	private String soalQuiz;
@@ -166,3 +163,6 @@ public class Quiz {
 	}
 	
 }
+}
+
+
